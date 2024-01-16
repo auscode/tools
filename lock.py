@@ -8,19 +8,19 @@ except ImportError:
     BACKEND = "pypdf"
 
 
-__author__    = "Alexandre D'Hondt"
-__version__   = "1.4"
-__copyright__ = ("A. D'Hondt", 2020)
-__license__   = "gpl-3.0"
-__docformat__ = "md"
-__examples__  = ["test_protected.pdf -p '[a-z0-9]{5}'"]
-__doc__       = """
-*PDF Password Bruteforcer* allows to execute a bruteforce attack on a given PDF file,
- setting a regular expression pattern for the target password.
-"""
+# __author__    = "Alexandre D'Hondt"
+# __version__   = "1.4"
+# __copyright__ = ("A. D'Hondt", 2020)
+# __license__   = "gpl-3.0"
+# __docformat__ = "md"
+# __examples__  = ["test_protected.pdf -p '[a-z0-9]{5}'"]
+# __doc__       = """
+# *PDF Password Bruteforcer* allows to execute a bruteforce attack on a given PDF file,
+#  setting a regular expression pattern for the target password.
+# """
 
-BANNER_FONT  = "tombstone"
-BANNER_STYLE = {'fgcolor': "lolcat"}
+# BANNER_FONT  = "tombstone"
+# BANNER_STYLE = {'fgcolor': "lolcat"}
 
 
 def bruteforce_pdf_password(path, regex):
